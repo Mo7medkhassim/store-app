@@ -1,0 +1,123 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+/* end of font */
+
+
+
+:root {
+  --fullPrimary: #102A42;
+  --primaryColor: #F14705;
+  --mainSilver: #F1F5F8;
+  --white: #ffffff;
+  --mainWhite: #fff;
+  --mainBlack-1: #0A0A0A;
+  --mainBlack-2: #484848;
+  --mainGray: hsl(210deg 22% 49%);
+  --mainTranssition: all 0.3s linear;
+  --mainSpacing: 0.1rem;
+  --border-radius: .3rem;
+  --lightShadow:   0 5px 15px rgba(0, 0, 0, 0.1);
+  --darkShadow:  0 5px 15px rgba(0, 0, 0, 0.2);
+  --ff-primary: "Roboto", sans-serif;
+  
+  --fontMenu: 'Open Sans', sans-serif;
+  --baseSection: #f8f8f8;
+}
+*, *::before ,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 90%;
+}
+body{
+    color: var(--mainBlack-1);
+    background: var(--mainWhite);
+    font-size: 1.7rem;
+    font-family: var(--ff-secondary);
+    position: relative;
+}
+ul {
+    list-style-type: none;
+  
+  }
+a{
+    text-decoration: none;
+}
+.about{
+    background: var(--baseSection);
+    height: 160px;
+    padding-top: 90px;
+    color: var(--fullPrimary);
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+
+}
+.tile{
+    font-size: 1.3rem;
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    letter-spacing: var(--mainSpacing);
+}
+.about-link{
+    display: flex;
+    justify-content: space-between;
+}
+.about-link  li{
+     font-size: 1rem;
+     color: var(--ff-primary);
+     padding: 0 3px;
+}
+.about span  a{
+    text-decoration: none !important;
+}
+/* intro the video */
+.banner-id{
+   
+    width: 100%;
+    height: 70vh;
+
+
+}
+.banner-img{
+    background: url('http://demo.roadthemes.com/ginza/wp-content/uploads/2018/11/about-us-banner1.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-intor {
+    padding: 3rem 5rem;
+    text-align: center;
+}
+.banner-intor h3{
+
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 75%;
+}
+.banner-intor p{
+    width: 90%;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

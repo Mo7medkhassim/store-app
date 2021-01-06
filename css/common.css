@@ -1,0 +1,93 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+/* end of font */
+
+
+
+:root {
+  --fullPrimary: #102A42;
+  --primaryColor: #F14705;
+  --mainSilver: #F1F5F8;
+  --white: #ffffff;
+  --mainWhite: #fff;
+  --mainBlack-1: #0A0A0A;
+  --mainBlack-2: #484848;
+  --mainGray: hsl(210deg 22% 49%);
+  --mainTranssition: all 0.3s linear;
+  --mainSpacing: 0.1rem;
+  --border-radius: .3rem;
+  --lightShadow:   0 5px 15px rgba(0, 0, 0, 0.1);
+  --darkShadow:  0 5px 15px rgba(0, 0, 0, 0.2);
+  --ff-primary: "Roboto", sans-serif;
+  
+  --fontMenu: 'Open Sans', sans-serif;
+}
+
+#footer a{
+  text-decoration: none;
+
+}
+/* footer */
+@media screen and (max-width: 767px){
+.control-icon{
+
+    display: flex;
+    justify-items: stretch;
+    justify-content: space-between;
+    width: 15%;
+    
+}
+.cart-btn{
+  
+}
+}
+#footer{
+    padding: 3rem 10px;
+    background-color: #121212;
+    box-shadow: 1px 1px 1px 19x #f0f0f0;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-family: var(--ff-primary);
+}
+.footer-log{
+  width: 200px;
+  height: 70px;
+}
+.discription-footer{
+  font-size: 1rem;
+  font-family: var(--ff-secondary);
+  color:  #797979;
+}
+#footer span{
+  text-transform: capitalize;
+  color: var(--white);
+  font-family: var(--fontMenu);
+  font-weight: 500;
+  font-size: 1rem;
+
+
+
+}
+.social-media{
+  
+}
+.social-icon{
+  display: flex;
+}
+.social-icon, .time-det, .about-footer a{
+  color: #797979;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+#footer a:hover{
+  color: var(--mainGray);
+  
+
+}
+.social-icon li{
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+/* end of footer */

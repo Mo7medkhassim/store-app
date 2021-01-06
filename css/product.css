@@ -1,0 +1,11 @@
+.filter-btn{
+    display: block;
+    margin: 0.25em 0;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    background: transparent;
+    border-color: transparent;
+    
+    cursor: pointer;
+    
+}

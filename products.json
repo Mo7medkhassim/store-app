@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "sofa",
+        "price": 92.99,
+        "category": "seat",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/7947771c7dd73e3743bf8fc9b71c5885.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "seat",
+        "price": 25.99,
+        "category": "seat",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/9a36af83c5a8d9d6334749ef36a525c9.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "queen panel bed",
+        "price": 10.99,
+        "category": "seat",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/5e840952f2289528c9a4434445b9b72c.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "king panel bed",
+        "price": 12.99,
+        "category": "sofa",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/ab08502723a0b0e8dbbf9a65df5b0c32.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "single panel bed",
+        "price": 12.99,
+        "category": "sofa",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/8dbb6fa6a1c7e699d0d3b911605a2f76.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "twin panel bed",
+        "price": 22.99,
+        "category": "chairs",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/13e9fc2e5f8d58dd64ef852ee7ec39cb.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "fridge",
+        "price": 88.99,
+        "category": "chairs",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/a87a4a2d5266c5d81db42bf4cbfc009b.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "dresser",
+        "price": 32.99,
+        "category": "bedroom",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/ab08502723a0b0e8dbbf9a65df5b0c32.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "couch",
+        "price": 45.99,
+        "category": "bedroom",
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/1a9a03ae700a011b439ea8d6c12c7dd7.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "table",
+        "price": 33.99,
+        "category": "bedroom",
+
+        "image": { "fields": { "file": { "url": "https://www.saray-fur.com/uploads/products_type/d0ec0ca0e4be2c9b5e366d3c0beea545.png" } } }
+      }
+    }
+  ]
+}
